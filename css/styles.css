@@ -104,7 +104,7 @@ button {
 
 /* ---------------------------------TEAM--------------------------- */
 .team {
-  background-color: #f4f4fd;
+  background-color: tomato;
 }
 .team-title {
   font-size: 36px;
@@ -115,6 +115,9 @@ button {
   text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
+}
+.team-item {
   background-color: #ffffff;
 }
 .team-item-title {
