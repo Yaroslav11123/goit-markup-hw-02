@@ -26,10 +26,10 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .header-accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-item-link {
@@ -42,6 +42,9 @@ button {
 .header-item-link:hover,
 .header-item-link:focus {
   color: #404bbf;
+}
+.header-address {
+  font-style: normal;
 }
 .header-address-item-link {
   font-size: 16px;
@@ -75,11 +78,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
 }
-.hero-btn:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.hero-btn:hover,
+.hero-btn:focus {
   background: #404bbf;
 }
 /* ---------------------------------HERO--------------------------- */
@@ -110,6 +112,10 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.team-list {
+  background-color: #ffffff;
 }
 .team-item-title {
   font-weight: 500;
@@ -135,6 +141,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-item-title {
   font-weight: 500;
@@ -162,10 +169,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
+  font-weight: 700;
 }
 .footer-accent {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
